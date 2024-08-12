@@ -5,7 +5,6 @@ export default function Main(props){
         <header>
             <div className="img-container">
             <img src={data.hdurl} alt={data.title||"background-img"} onClick={() => handleToggleSidebar()}/>
-            {console.log(data.hdurl)}
             </div>
         </header>
     )
