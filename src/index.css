@@ -62,6 +62,7 @@ button:hover{
   width: 100vw;
   height: 100vh;
   background: linear-gradient(to center black, transparent);
+  overflow-x: hidden;
 }
 
 .img-container img{
